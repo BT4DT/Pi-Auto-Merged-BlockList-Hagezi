@@ -41,29 +41,7 @@ sort -u cleaned.txt > merged_clean.txt
 cat <<EOF > whitelist.txt
 # ==== WHITELIST ====
 # remove # to enable
-dns.google.com
-cloudflare.com
-cloudflare-dns.com
-gstatic.com
-dnsforge.de
-mymax.top
-dnsz.in
-plusiptv.dnsz.in
-tvdns.top
-plusiptv.tvdns.top
-media-shop.top
-filimo.com
-namava.ir
-filmnet.ir
-snapp.site
-aptel.ir
-soft98.ir
-github.com
-tailscale.com
-zerotier.com
-goodcloud.xyz
-astrowarp.net
-youtubei.googleapis.com
+# dns.google.com
 EOF
 
 # ===== final =====
